@@ -78,5 +78,15 @@ footer {
 	font-weight:bold;
 }
 
-  
+#nine{
+  text-align: right;
+  font-size: 20px;
+  color: #FBB12A;
+}
+#ten{
+  text-align: left;
+  font-size: 20px;
+  color: #FBB12A;
+}
+
 </style>
