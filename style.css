@@ -1,0 +1,16 @@
+        <style>
+            h1 {
+                color: white;
+            }
+            p {
+                color: GhostWhite;   
+            }
+            body {
+	            background-color:#9A240B;
+            }
+            textarea {
+				font-family:sans-serif;
+				font-size:1.2em;
+            }
+            
+        </style>
