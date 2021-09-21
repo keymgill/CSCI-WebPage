@@ -22,7 +22,7 @@
             }
             body {
 	            background-image: url("images/strip.gif");
-		 
+		 	background-color: #052389;
             }
             textarea {
 				font-family:sans-serif;
