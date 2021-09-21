@@ -2,9 +2,11 @@
             h1 {
 		text-align: center;
                 color: white;
+		margin: 0px auto;
+		display; block;
             }
             p {
-                color: GhostWhite;   
+                color: black;   
             }
             body {
 	            background-image: url("images/prints.gif");
