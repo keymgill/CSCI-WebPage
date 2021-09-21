@@ -79,14 +79,17 @@ footer {
 }
 #two{
 text-align: center;
+color: white;
+font-weight: bold;
+font-size: 18px;
 }
 #nine{
-  text-align: right;
+  text-align: center;
   font-size: 30px;
   color: #FBB12A;
 }
 #ten{ 
-  text-align: left;
+  text-align: center;
   font-size: 30px;
   color: #FBB12A;
 }
