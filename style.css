@@ -1,52 +1,68 @@
 <style>
-h1
-{
-	display: inline;
-	font-weight: bold;
-	text-align: center;
-	font-size: 3em;   
-}
-
-h2 {
-	font-size: 2em;
-	color: #FBB12A;
-}
-
-ul{
-  border: 1px solid white;
-  padding-right: 50px;
-  padding-left: 28px;
-  width: 50px;
-  border-radius: 5px;
-  color: #FBB12A;
-  font-weight: bold;
-  font-size: 1.5em;
-  background: #DFDFDD;
-}
-
-#menu{
-	text-align: center;
-}
-
-#content {
-	text-align: center;
-	color: #FBB12A;
-}
-
-#content p {
-	width: 750px;
-	font-size: 2.5em;
-
-}
-
-p {
-	color: #FBB12A; 
-	font-weight:bold;
+* {
+  box-sizing: border-box;
 }
 
 body {
-	background-image: url("images/strip.gif");
+  font-family: Arial, Helvetica, sans-serif;
+  	background-image: url("images/strip.gif");
 	background-color: #052389;
+
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #FBB12A;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
 }
   
 </style>
