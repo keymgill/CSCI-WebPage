@@ -1,10 +1,22 @@
 <style>
-            h1 {
-		text-align: center;
-                color: black;
-		margin: 0px auto;
-		display; block;
-            }
+	h1
+{
+    display: inline;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5em;   
+}
+
+#content 
+{
+    text-align: center;
+}
+#content p 
+{
+    width: 750px;
+}
+
             p {
                 color: black;   
             }
