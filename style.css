@@ -15,12 +15,13 @@ h2 {
 ul{
   border: 1px solid white;
   padding-right: px;
-  padding-left: 28px;
+  padding-left: 45px;
   width: 50px;
   border-radius: 5px;
   color: #FBB12A;
   font-weight: bold;
   font-size: 1.5em;
+  background: #B2B2B1;
 }
 
 #content {
