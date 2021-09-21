@@ -11,7 +11,7 @@
 #content 
 {
     text-align: center;
-	color: #C78204;
+	color: #FBB12A;
 }
 #content p 
 {
@@ -19,8 +19,8 @@
 }
 
             p {
-                color: #C78204; 
-		    front-weight:bold;
+                color: #FBB12A; 
+		    font-weight:bold;
             }
             body {
 	            background-image: url("images/strip.gif");
