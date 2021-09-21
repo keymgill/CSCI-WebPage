@@ -64,5 +64,11 @@ footer {
     height: auto;
   }
 }
+
+p {
+	color: #FBB12A; 
+	font-weight:bold;
+}
+
   
 </style>
