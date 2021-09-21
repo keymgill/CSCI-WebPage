@@ -6,7 +6,7 @@
                 color: GhostWhite;   
             }
             body {
-	            background-color: url('images_blue.jpg');
+	            background-color: url('images/blue.jpg');
             }
             textarea {
 				font-family:sans-serif;
