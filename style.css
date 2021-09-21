@@ -95,8 +95,9 @@ font-size: 18px;
 }
 
 #myimage{
-margin-right: 25%;
+border: 1px solid #ddd;
+border-radius: 4px;
+padding: 5px;
 width: 942px;
-height: 550px;
 }
 </style>
