@@ -17,6 +17,8 @@ header {
   text-align: center;
   font-size: 60px;
   color: #FBB12A;
+  text-decoration: underline overline;
+  text-decoration-color: #FBB12A;
 }
 
 /* Create two columns/boxes that floats next to each other */
